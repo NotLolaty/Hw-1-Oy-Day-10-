@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Homework // Day 10</title>
+  </head>
+  <body>
+    <div class="containter" style="margin: 0 25px">
+      <header>
+        <div class="header-text">
+          <h1 class="site-title" style="color: #305c41">
+            Product Registration Form
+          </h1>
+          <p class="site-title-text" style="color: #627d6f">
+            Register your product by filling in the product registration form
+            below
+          </p>
+        </div>
+      </header>
+      <hr style="margin-top: 50px" />
+      <main>
+        <section class="hero">
+          <div class="hero-section-div">
+            <form
+              action="https://jsonplaceholder.typicode.com/todos/1"
+              method="post"
+            >
+              <label
+                class="hero-section-label"
+                style="display: block"
+                for="name"
+                >Name</label
+              >
+              <input
+                class="hero-section-input"
+                type="text"
+                name="name"
+                id="name"
+                autocomplete="off"
+                placeholder="First"
+              />
+              <input
+                class="hero-section-input2"
+                type="text"
+                name="lastname"
+                id="lastname"
+                autocomplete="off"
+                placeholder="Last"
+              />
+
+              <!-- another label -->
+
+              <label
+                class="hero-section-label"
+                style="display: block"
+                for="email"
+                >Email</label
+              >
+              <input
+                class="hero-section-input"
+                type="email"
+                name="email"
+                id="email"
+                autocomplete="off"
+                placeholder="Email"
+              />
+
+              <!-- another label -->
+
+              <label
+                class="hero-section-label2"
+                style="margin-left: 15px"
+                for="tel"
+                >Phone</label
+              >
+              <input
+                class="hero-section-input"
+                type="tel"
+                name="tel"
+                id="tel"
+                autocomplete="off"
+                placeholder="Your Phone Number"
+              />
+
+              <!-- another label -->
+
+              <label
+                class="hero-section-label"
+                style="margin: top 30px; display: block"
+                for="address"
+                >Address</label
+              >
+              <input
+                class="hero-section-input3"
+                style="width: 520px; display: block"
+                type="text"
+                id="address"
+                name="address"
+                autocomplete="off"
+                placeholder="Street Address"
+              />
+              <input
+                class="hero-section-input3"
+                style="margin-top: 15px"
+                type="text"
+                id="address"
+                name="address"
+                autocomplete="off"
+                placeholder="City"
+              />
+              <select
+                style="
+                  width: 250px;
+                  padding: 10px 15px;
+                  border-radius: 3px;
+                  border-color: #a1b8ae;
+                  background-color: #ecf8f6;
+                  margin-left: 15px;
+                "
+                name="state"
+                id="state"
+              >
+                <option
+                  class="hero-section-first-option"
+                  value="Аккурган Ташкентская область"
+                >
+                  Аккурган Ташкентская область
+                </option>
+
+                <!-- ..... -->
+
+                <option
+                  class="hero-section-first-option"
+                  value="Акташ Самаркандская область"
+                >
+                  Акташ Самаркандская область
+                </option>
+
+                <!-- ..... -->
+
+                <option
+                  class="hero-section-first-option"
+                  value="Алат Бухарская область"
+                >
+                  Алат Бухарская область
+                </option>
+
+                <!-- ..... -->
+
+                <option
+                  class="hero-section-first-option"
+                  value="Алмалык Ташкентская область"
+                >
+                  Алмалык Ташкентская область
+                </option>
+
+                <!-- ..... -->
+
+                <option
+                  class="hero-section-first-option"
+                  value="Ангрен	Ташкентская область"
+                >
+                  Ангрен Ташкентская область
+                </option>
+
+                <!-- ..... -->
+
+                <option
+                  class="hero-section-first-option"
+                  value="Андижан Андижанская область"
+                >
+                  Андижан Андижанская область
+                </option>
+
+                <!-- ..... -->
+
+                <option
+                  class="hero-section-first-option"
+                  value="Асака Андижанская область"
+                >
+                  Асака Андижанская область
+                </option>
+
+                <!-- ..... -->
+
+                <option
+                  class="hero-section-first-option"
+                  value="Ахангаран Ташкентская область"
+                >
+                  Ахангаран Ташкентская область
+                </option>
+              </select>
+              <br />
+
+              <!-- ...... -->
+
+              <input
+                class="hero-section-input3"
+                style="margin-top: 15px"
+                type="text"
+                id="postal / zip code"
+                name="postal / zip code"
+                autocomplete="off"
+                placeholder="Postal / Zip Code"
+              />
+
+              <!-- ........ -->
+
+              <select
+                style="
+                  width: 250px;
+                  padding: 10px 15px;
+                  border-radius: 3px;
+                  border-color: #a1b8ae;
+                  background-color: #ecf8f6;
+                  margin-left: 15px;
+                "
+                name="state"
+                id="state"
+              >
+                <option class="hero-section-first-option" value="Ташкент">
+                  Ташкент
+                </option>
+
+                <!-- ..... -->
+
+                <option
+                  class="hero-section-first-option"
+                  value="Республика Каракалпакстан"
+                >
+                  Республика Каракалпакстан
+                </option>
+
+                <!-- ..... -->
+
+                <option
+                  class="hero-section-first-option"
+                  value="Андижанская область"
+                >
+                  Андижанская область
+                </option>
+
+                <!-- ..... -->
+
+                <option
+                  class="hero-section-first-option"
+                  value="Бухарская область"
+                >
+                  Бухарская область
+                </option>
+
+                <!-- ..... -->
+
+                <option
+                  class="hero-section-first-option"
+                  value="Джизакская область"
+                >
+                  Джизакская область
+                </option>
+
+                <!-- ..... -->
+
+                <option
+                  class="hero-section-first-option"
+                  value="	Кашкадарьинская область"
+                >
+                  Кашкадарьинская область
+
+                  <!-- ..... -->
+                </option>
+
+                <option
+                  class="hero-section-first-option"
+                  value="Навоийская область"
+                >
+                  Навоийская область
+                </option>
+
+                <!-- ..... -->
+
+                <option
+                  class="hero-section-first-option"
+                  value="Наманганская область"
+                >
+                  Наманганская область
+                </option>
+              </select>
+
+              <!-- .................................................... -->
+
+              <h2
+                class="title"
+                style="margin-top: 25px; color: #749c81; font-size: 35px"
+              >
+                PRODUCT INFORMATION
+              </h2>
+
+              <!-- another label -->
+
+              <label
+                class="hero-section-label"
+                style="display: block"
+                for="product name"
+                >Product Name</label
+              >
+              <input
+                class="hero-section-input"
+                type="text"
+                id="product name"
+                autocomplete="off"
+                placeholder="Your Product Name"
+              />
+              <p style="color: #a1b8ae">e.g. Laptop</p>
+
+              <!-- .................................................... -->
+
+              <label
+                class="hero-section-label"
+                style="display: block"
+                for="product name & model"
+                >Product Name & Model</label
+              >
+              <input
+                class="hero-section-input"
+                type="text"
+                id="product name & model"
+                autocomplete="off"
+                placeholder="YP name and his model"
+              />
+              <p style="color: #a1b8ae">e.g. Lenovo Yoga Slim 7i Pro</p>
+
+              <!-- .................................................... -->
+
+              <label
+                class="hero-section-label"
+                style="display: block"
+                for="product model id"
+                >Product Model ID</label
+              >
+              <input
+                class="hero-section-input"
+                type="text"
+                id="product model id"
+                autocomplete="off"
+                maxlength="11"
+                placeholder="Your Product ID"
+              />
+              <p style="color: #a1b8ae">e.g. SZ123456789</p>
+
+              <!-- .................................................... -->
+
+              <label
+                class="hero-section-label"
+                style="display: block"
+                for="product fabrication year"
+                >Product Fabrication Year</label
+              >
+              <input
+                class="hero-section-input"
+                type="text"
+                id="product fabrication year"
+                autocomplete="off"
+                min="1990"
+                max="2023"
+                maxlength="4"
+                placeholder="YP Fabrication Year"
+              />
+              <p style="color: #a1b8ae">e.g. 1999</p>
+
+              <!-- .................................................... -->
+
+              <label
+                class="hero-section-label"
+                style="display: block"
+                for="purchase data"
+                >Purchase Data</label
+              >
+              <input
+                class="hero-section-input"
+                type="date"
+                id="purchase data"
+                autocomplete="off"
+                min="1990"
+                max="2023"
+                maxlength="4"
+                placeholder="YP Fabrication Year"
+              />
+              <p style="color: #a1b8ae">e.g. 14/2/2023</p>
+              <button
+                style="
+                  width: 250px;
+                  padding: 10px 15px;
+                  border-radius: 3px;
+                  border-color: #a1b8ae;
+                  background-color: #749c81;
+                  margin-top: 50px;
+                "
+                type="submit"
+              >
+                REGISTER PRODUCT
+              </button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

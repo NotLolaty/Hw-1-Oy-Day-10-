@@ -1,0 +1,72 @@
+/* mulish-regular - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/mulish-v12-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/mulish-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", "sans-serif";
+  background-color: #dcf3ed;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.containter {
+  max-width: 1500px;
+  min-height: 2000px;
+  box-sizing: border-box;
+}
+
+.hero-section-label {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #628d79;
+}
+
+.hero-section-input {
+  width: 250px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border-color: #a1b8ae;
+  background-color: #ecf8f6;
+}
+
+.hero-section-label2 {
+  margin-bottom: 10px;
+  color: #628d79;
+}
+
+.hero-section-input2 {
+  width: 250px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  margin-left: 15px;
+  border-color: #a1b8ae;
+  background-color: #ecf8f6;
+}
+
+.hero-section-input3 {
+  width: 250px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border-color: #a1b8ae;
+  background-color: #ecf8f6;
+}
+
